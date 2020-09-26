@@ -46,16 +46,16 @@
         git log --oneline 【查看简略版的提交记录（前7位版本号 + 提交说明）】
         git log --oneline --reflog 【查看所有版本】
 
-        4.4 穿梭到某个版本 注：穿梭到历史，不能修改
+        4.4 穿梭到某个版本 注：穿梭到历史时，不能修改
         git checkout 版本号
 
         4.5 查看文件状态：
         git status
         几种状态：
         1.nothing to commit 【表示没有什么东西可以提交了；即，所有的内容都已经提交过了】
-        2.Untracked files:未追踪文件 没有被git管理
-        3.staged: 已暂存
-        4.modified：已修改 文件已经添加至暂存区 但是没有提交到本地仓库 但是又在工作区修改了
+        2.Untracked files:【未追踪文件 没有被git管理 没有添加到暂存区】
+        3.staged: 【已暂存】
+        4.modified：【已修改 文件已经添加至暂存区 但是没有提交到本地仓库 但是又在工作区修改了】
 
         4.6 分支
         git branch 【查看所有分支】
